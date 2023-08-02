@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.bg-aro{
+    background-color: #66339954;
+}
+
+.images img{
+    width:100%;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.title.mx-auto {
+    text-align: center;
+    margin: 40px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+      margin-bottom: 20px;
+  }
+  .card img{
+    width: 250px;
+    height: auto;
+}
+.slaider-title {
+    margin-bottom: 20px;
+}
+.accordion-image {
+    margin-bottom: 20px;
+}
+  }
+
+
+  @media only screen and (max-width: 420px) {
+    .card img{
+        width: 200px;
+        height: auto;
+    }
+
+
+  }

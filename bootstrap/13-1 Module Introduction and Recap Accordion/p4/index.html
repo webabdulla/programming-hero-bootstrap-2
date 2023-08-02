@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - قائمة اكورديون منسدلة متجاوبة pure css accordion</title>
+  <link rel="stylesheet" href="./style.css">
+<style>
+  .tabs-box .acord {
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+}
+  .tabs-box .acord label, .tabs-box .acord label i, .tabs-box .acord i.fa-chevron-circle-down {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+ .tabs-box .acord i.fa-chevron-circle-down {
+    position: absolute;
+    z-index: 1111;
+    top: 0;
+    left: auto !important;
+    width: 40px;
+    text-align: right !important;
+    right: 0;
+    -moz-transition: all .2s linear 0s;
+    -webkit-transition: all .2s linear 0s;
+    transition: all .2s linear 0s;
+}
+
+</style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
+
+
+<link href='https://fonts.googleapis.com/css?family=Cairo|Tajawal&amp;display=swap' rel='stylesheet'/>    
+
+  <div class="tabs-box">
+    <div class="acord">
+        <label for="tb-one" class="bg-one">
+          Lorem, ipsum dolor 1      </label>
+        <input type="checkbox" name="mytabs" id="tb-one">
+        <i class="fa fa-chevron-circle-down"></i>
+        <div class="content" >
+  <span class="square"></span>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ullam numquam praesentium iusto possimus labore rem ut illum? Autem, delectus.
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, quisquam ad dolorem neque quam pariatur, facere provident sunt quos aspernatur soluta voluptatum voluptate? Ad quaerat cum repellendus obcaecati architecto? Facere.
+        </div>
+    </div>
+
+    <div class="acord">
+        <label for="tb-two"  class="bg-two">
+          
+         Lorem, ipsum dolor 2    </label>
+        <input type="checkbox" name="mytabs" id="tb-two">
+        <i class="fa fa-chevron-circle-down"></i>
+        <div class="content">
+          <span class="square"></span>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ratione consequuntur atque minus, ipsam error facilis molestias pariatur quas quae ea debitis eum, velit eius vero saepe excepturi laudantium harum.
+        </div>
+    </div>
+
+    <div class="acord">
+        <label for="tb-three"  class="bg-three">
+          
+          Lorem, ipsum dolor 3  
+        </label>
+        <input type="checkbox" name="mytabs" id="tb-three">
+        <i class="fa fa-chevron-circle-down"></i>
+        <div class="content">
+          <span class="square"></span>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A in soluta eius! Dignissimos, consequatur laboriosam.
+        </div>
+    </div>
+
+
+    <div class="acord">
+        <label for="tb-four"  class="bg-four">
+         
+          Lorem, ipsum dolor 4
+        </label>
+        <input type="checkbox" name="mytabs" id="tb-four">
+        <i class="fa fa-chevron-circle-down"></i>
+        <div class="content">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus cupiditate veniam deleniti laborum, sequi illo soluta asperiores quo libero impedit possimus cumque quaerat consequuntur eum qui ipsum nisi ipsam tenetur iusto fugiat dolorem amet, dicta, assumenda quidem. Hic, deleniti temporibus mollitia similique saepe natus illum laborum perferendis inventore esse dicta?
+        </div>
+    </div>
+
+
+
+  </div>
+<!-- partial -->
+  
+</body>
+</html>
